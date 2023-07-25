@@ -1,0 +1,175 @@
+* {
+    font-family: garamond serif;
+}
+
+/*     NAV      */
+
+.navTitle {
+    text-align: center;
+    font-family: garamond serif;
+    font-size: 30px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/*         FOOTER         */
+
+footer{
+    background-color: lightgrey;
+    color: slategrey;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+
+.links-wrapper{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 13px;
+}
+
+.links-wrapper h2{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.link-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.link-list li{
+    list-style: none;
+}
+
+.link-list a{
+    color: slategrey;
+}
+
+.social-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.social-links li{
+    list-style: none;
+    font-size: 20px;
+    margin: 1rem;
+    color: slategrey;
+}
+
+.fineprint{
+    text-align: center;
+}
+
+/*      HOME PAGE - Hero      */
+
+.homeHero {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: white;
+    justify-content: center;
+    height: 600px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7) ),  url('/images/contact-img1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.homeHero p {
+    font-size: 16px;
+}
+
+.homeHero button {
+    align-self: center;
+    width: 4rem;
+}
+
+/*      HOME PAGE - About      */
+
+.homeAbout {
+    display: flex;
+    align-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.aboutSection {
+    display: flex;
+    align-content: center;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+.about-container {
+    display: flex !important;
+    flex-direction: column !important;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+/*-------ABOUT PAGE - HERO SECTION--------*/
+
+.aboutus-hero{
+    height: 460px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),  url('/images/ChoirCollegeChoir.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 49%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutus-hero-title {
+    color: white;   
+    font-size: 70px
+}
+
+/*-------ABOUT PAGE - MAIN SECTION--------*/
+
+.aboutus-section{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9e5af;
+    margin-top: 8rem;
+    margin-bottom: 15rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    padding-top: 5rem;
+    padding-bottom: 7rem;
+}
+
+.aboutus-paragraph{
+    text-indent: 2rem;
+}
+
