@@ -83,12 +83,12 @@ app.get("/home", function(req,res){
       res.render('home') 
   });
 
-  app.get("/aboutus", function(req,res){   
+  app.get("/about-us", function(req,res){   
     res.render('about')
 });
 
-app.get("/contact", function(req,res){
-    res.render('contact')
+app.get("/shop", function(req,res){
+    res.render('shop')
 });
 
 app.get("/contact", function(req,res){

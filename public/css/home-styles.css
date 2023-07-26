@@ -128,6 +128,28 @@ footer{
     margin-bottom: 6rem;
 }
 
+.contactSection {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+.productSection {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
 .about-container {
     display: flex !important;
     flex-direction: column !important;
@@ -158,13 +180,11 @@ footer{
     display: flex;
     flex-direction: column;
     font-family: 'Poppins', sans-serif;
-    background-color: #f9e5af;
+    width: 80%;
     margin-top: 8rem;
     margin-bottom: 15rem;
-    margin-left: 10rem;
-    margin-right: 10rem;
-    padding-left: 7rem;
-    padding-right: 7rem;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 5rem;
     padding-bottom: 7rem;
 }
@@ -173,3 +193,10 @@ footer{
     text-indent: 2rem;
 }
 
+.aboutQuote{
+    text-align: center;
+}
+
+.aboutHeading{
+    text-align: center;
+}
