@@ -200,3 +200,24 @@ footer{
 .aboutHeading{
     text-align: center;
 }
+
+/*-------CONTACT PAGE - HERO SECTION--------*/
+
+.aboutus-hero{
+    height: 460px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),  url('/images/ChoirCollegeChoir.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 49%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutus-hero-title {
+    color: white;   
+    font-size: 70px
+}
+
+/*-------CONTACT PAGE - MAIN SECTION--------*/
+
